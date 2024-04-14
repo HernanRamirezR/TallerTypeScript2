@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Series</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <header style="width: 100%; background-color: #016064; color: black; padding: 10px 20px; box-sizing: border-box; display: flex; align-items: center; margin-bottom: 30px;">
+        <div style="background-color: black; color: white; padding: 5px 10px; margin-right: 10px;">TV</div>
+        <h1 style="margin: 0;">TV Series</h1>
+    </header>
+    
+    <div class="container">
+        <table class="table" style="width: auto;">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Channel</th>
+                    <th>Seasons</th>
+                </tr>
+            </thead>
+            <tbody id="series" style="background-color: #f2f2f2;"></tbody>
+        </table>
+        <div class="row" style="margin-left: 10px;">
+            <div>Seasons average:&nbsp;</div>
+            <div id="promedio-temporadas"></div>
+        </div>
+    </div>  
+    
+    <script type="module" src="./scripts/serie.js" ></script>
+    <script type="module" src="./scripts/dataSeries.js" ></script>
+    <script type="module" src="./scripts/main.js" ></script>
+
+    </body>
+    
+    
+    
+    
+    
+</body>
+</html>
