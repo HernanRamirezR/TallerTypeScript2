@@ -14,7 +14,7 @@ export class Serie {
       this.temporadas=temporadas
       this.resumen = resumen;
       this.enlace = enlace;
-      this.img = img
+      this.img = img;
     }
   }
   

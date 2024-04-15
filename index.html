@@ -13,22 +13,32 @@
     </header>
     
     <div class="container">
-        <table class="table" style="width: auto;">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Name</th>
-                    <th>Channel</th>
-                    <th>Seasons</th>
-                </tr>
-            </thead>
-            <tbody id="series" style="background-color: #f2f2f2;"></tbody>
-        </table>
-        <div class="row" style="margin-left: 10px;">
-            <div>Seasons average:&nbsp;</div>
-            <div id="promedio-temporadas"></div>
+        <div class ="row">
+            <div class ="col-md-6">
+                <table class="table" style="width: auto;">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Channel</th>
+                            <th>Seasons</th>
+                        </tr>
+                    </thead>
+                    <tbody id="series" style="background-color: #f2f2f2;"></tbody>
+                </table>
+                <div class="row" style="margin-left: 10px;">
+                    <div>Seasons average:&nbsp;</div>
+                    <div id="promedio-temporadas"></div>
+                </div>
+            </div> 
+
+            <div class="col-md-6">
+                <div id="detalle-serie" class="card" ></div>
+            </div>
+            
         </div>
-    </div>  
+    </div>
+        
     
     <script type="module" src="./scripts/serie.js" ></script>
     <script type="module" src="./scripts/dataSeries.js" ></script>
